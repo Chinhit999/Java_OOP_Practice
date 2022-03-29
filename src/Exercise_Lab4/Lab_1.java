@@ -28,6 +28,9 @@ public class Lab_1 {
                     case 1:
                         ArrayList<Integer> arr = new ArrayList<Integer>();
                         arr.add(1);
+                        arr.add(2);
+                        arr.add(3);
+                        arr.add(4);
                         arr.add(5);
                         for (Integer i : arr) {
                             System.out.print(i + " ");
@@ -35,9 +38,36 @@ public class Lab_1 {
                     default:
                         System.out.println("");
 
-                    case 2 :
+                    case 2:
+                        int[] intarr = {1, 2, 3, 4, 5};
 
+                        for (int Number : intarr) {
+                            System.out.println(" " + Number);
 
+                        }
+                    case 3:
+                        int[] intArray = {1,2,3,4,5};
+                        int Max = intArray[0] ;
+                        for (int i = 0; i < intArray.length; i++) {
+                            if(intArray[i] <= 5){
+
+                                Max = intArray[i];
+
+                            }
+                        }
+                        System.out.println("SoLuongToiDa :" + Max);
+                        break;
+
+                    case 4 :
+                        int[] intArray1 = {1,2,3,4,5};
+                        int Min = intArray1[0] ;
+                        for (int i = 0; i < intArray1.length; i++) {
+                            if(intArray1[i] <= 1){
+
+                                Min = intArray1[i];
+                            }
+                        }
+                        System.out.println("SoLuongToiThieu :" + Min);
                 }
 
             }
